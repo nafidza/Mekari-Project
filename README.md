@@ -428,4 +428,4 @@ For a detailed step-by-step technical breakdown, including Python scripts for al
 
 ---
 
-*Project by Nafidza Shadrina Diva Aulia | Tools: Python, MySQL, Power BI | Data: Bitlabs Bootcamp Case Study*
+*Project by Nafidza Shadrina Diva Aulia - Tools: Python, MySQL, Power BI - Data: Bitlabs Bootcamp Case Study*
