@@ -422,7 +422,9 @@ Decision-support page focused on the financial impact of layoff scenarios and th
 # Technical Resources
 For a detailed step-by-step technical breakdown, including Python scripts for all 6 stages, please refer to:
 
-**Source Code:** [Google Colab Notebook](https://colab.research.google.com/drive/1VhUIdYZ4fwIOt8FNcihVkQzjXW9d8NYQ?usp=sharing)
+**Python Code:** [Google Colab Notebook](https://colab.research.google.com/drive/1dT7byCQKLDaAC1UB8RDF1Wg8E1BlGXAY?usp=sharing)
+
+**MySQL Code:** [MySQL Notebook](./scripts/data_analysis_transformation.sql)
 
 ---
 
