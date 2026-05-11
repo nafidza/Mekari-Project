@@ -419,4 +419,11 @@ Decision-support page focused on the financial impact of layoff scenarios and th
 
 ---
 
+# Technical Resources
+For a detailed step-by-step technical breakdown, including Python scripts for all 6 stages, please refer to:
+
+**Source Code:** [Google Colab Notebook](https://colab.research.google.com/drive/1VhUIdYZ4fwIOt8FNcihVkQzjXW9d8NYQ?usp=sharing)
+
+---
+
 *Project by Nafidza Shadrina Diva Aulia | Tools: Python, MySQL, Power BI | Data: Bitlabs Bootcamp Case Study*
