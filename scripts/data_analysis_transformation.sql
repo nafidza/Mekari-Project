@@ -1,4 +1,4 @@
-``` MySQL
+\sql
 
 -- -----------------------------------------------------------------------
 -- Monthly Agregation ----------------------------------------------------
@@ -145,4 +145,4 @@ SELECT
         ELSE 'Underperforming'
     END AS branch_status
 FROM branch_norm;
-```
+\\
