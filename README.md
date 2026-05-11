@@ -1,8 +1,25 @@
-# Mekari_Project
+# Mekari Payroll Efficiency & Workforce Optimization
+<img width="686" height="386" alt="hq720" src="https://github.com/user-attachments/assets/93e54280-6e54-4987-8ad3-218b73a79bbc" />
+
 
 ---
 
 # Table of Content
+* [Business Understanding](#business-understanding)
+* [Data Sources](#data-sources)
+* [Data Cleaning & Preparation](#data-cleaning--preparation)
+* [Methodology & Scoring Framework](#methodology--scoring-framework)
+    * [Employee Scoring (Two-Stage Approach)](#employee-scoring-two-stage-approach)
+    * [Branch Scoring](#branch-scoring)
+* [Exploratory Data Analysis & Insights](#exploratory-data-analysis--insights)
+    * [A. Productivity Overview](#a-productivity-overview)
+    * [B. Cost Efficiency Analysis](#b-cost-efficiency-analysis)
+    * [C. Performance Scoring & Classification](#c-performance-scoring--classification)
+    * [D. Layoff Analysis & Strategic Mapping](#d-layoff-analysis--strategic-mapping)
+* [Dashboard Development](#dashboard-development)
+* [Key Insights & Strategic Recommendations](#key-insights--strategic-recommendations)
+* [Limitations & Notes](#8-limitations--notes)
+* [Technical Resources](#technical-resources)
 
 ---
 
@@ -228,7 +245,7 @@ Branch Status:
 - No positive correlation observed between salary level and working hours, the compensation structure does not effectively reward productivity
 
 > 💡 **Insight B2 — Salary and Productivity Are Not Aligned at a Systemic Level:**
-> Contrary to what a healthy compensation system should show, higher salary does not correlate with higher working hours at Mekari. The **High Salary / Low Hours quardrant is one of the largest clusters**, meaning a substantial portion of the high-salary workforce consistently works below the median working hours. Simultaneously, the **Low Salary / High Hours quadrant is equally large**, representing employees who contribute above-median hours but are compensated below the median salary.
+> Contrary to what a healthy compensation system should show, higher salary does not correlate with higher working hours at Mekari. The **High Salary / Low Hours quadrant is one of the largest clusters**, meaning a substantial portion of the high-salary workforce consistently works below the median working hours. Simultaneously, the **Low Salary / High Hours quadrant is equally large**, representing employees who contribute above-median hours but are compensated below the median salary.
 > 
 > This is not an isolated mismatch, it is a **systemic misalignment between compensation and effort contribution** affecting a large portion of the workforce. The implication is significant: Mekari's current salary structure does not effectively incentivize or reward productive behavior. This finding strengthens the case for a **company-wide salary band review**, extending well beyond the 34 layoff candidates identified by the scoring model.
 
@@ -251,7 +268,7 @@ Branch Status:
 > The average final score of 0.69 does not indicate widespread underperformance. The distribution is healthy and centered, with 60% of employees in the Standard tier. The moderate average is structurally explained by the **compensation-tenure mismatch** identified in Sections A and B: employees with low tenure and high salaries receive a normalized tenure penalty in the final score, even when their monthly performance is solid. The small extreme-low cluster (<0.2) represents genuinely problematic cases distinct from the broader population and should be treated as immediate priority.
 
 
-## 2. Score Analysis by Branch (Ranked by Score)
+### 2. Score Analysis by Branch (Ranked by Score)
 <img width="1189" height="690" alt="download (3)" src="https://github.com/user-attachments/assets/666b6806-8822-417b-9d93-8f8aee670d96" />
 
 **Findings:**
@@ -271,9 +288,9 @@ Branch Status:
 
 
 ### 3. Combined Insight C — Compensation-Tenure Mismatch as Root Cause:
-> *The convergence of high working hours, high attendance, and moderate final scores points to one primary structural explanation: many employees carry mid-to-high salary levels despite having relatively low tenure. Since tenure contributes 20% to the final score and is normalized globally, newer employees with low tenure receive an automatic score penalty, regardless of how productive they are on a daily basis.
+> *The convergence of high working hours, high attendance, and moderate final scores points to one primary structural explanation: many employees carry mid-to-high salary levels despite having relatively low tenure. Since tenure contributes 20% to the final score and is normalized globally, newer employees with low tenure receive an automatic score penalty, regardless of how productive they are on a daily basis.*
 > 
-> This is reinforced by the salary-working hours scatter in Section B, where high-salary employees are not working more hours than lower-salary peers. Together, these two findings consistently point to the same root cause: **Mekari's compensation structure is not calibrated to tenure or productivity, it is advancing employees into higher salary bands faster than their experience and track record justify.***
+> *This is reinforced by the salary-working hours scatter in Section B, where high-salary employees are not working more hours than lower-salary peers. Together, these two findings consistently point to the same root cause: **Mekari's compensation structure is not calibrated to tenure or productivity, it is advancing employees into higher salary bands faster than their experience and track record justify.***
 
 
 ## D. Layoff Analysis & Strategic Mapping
@@ -420,11 +437,11 @@ Decision-support page focused on the financial impact of layoff scenarios and th
 ---
 
 # Technical Resources
-For a detailed step-by-step technical breakdown, including Python scripts for all 6 stages, please refer to:
+For a detailed step-by-step technical breakdown, including Python scripts for all stages, please refer to:
 
 **Python Code:** [Google Colab Notebook](https://colab.research.google.com/drive/1dT7byCQKLDaAC1UB8RDF1Wg8E1BlGXAY?usp=sharing)
 
-**MySQL Code:** [MySQL Notebook](./scripts/data_analysis_transformation.sql)
+**MySQL Code:** [MySQL Script](./scripts/data_analysis_transformation.sql)
 
 ---
 
