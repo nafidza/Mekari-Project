@@ -186,7 +186,7 @@ Branch Status:
 *Answers KBQ: How do working hours and attendance vary? What explains the moderate avg score given high utilization?*
 
 ### 1. Working Hours Distribution
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/b97a946a-5e80-44f7-a502-d3b583b219b6" />
+<img width="989" height="590" alt="EDA 1" src="https://github.com/user-attachments/assets/e5f6f38e-5430-486c-8920-dd15c3c8e249" />
 
 **Finding:**
 - Bimodal distribution with two peaks at **8 hours** and **9 hours/day**
@@ -200,7 +200,7 @@ Branch Status:
 
 
 ### 2. Distribution of Average Employee Attendance Rate
-<img width="989" height="590" alt="download (5)" src="https://github.com/user-attachments/assets/52fbc34d-3ed7-4fdf-bbdc-2583bf754071" />
+<img width="989" height="590" alt="EDA 2" src="https://github.com/user-attachments/assets/ac9ffa05-001a-4560-b144-79cd2b6e2fe4" />
 
 **Findings:**
 - Mean attendance rate: **82.9%**, Median: **85.5%**
@@ -220,7 +220,8 @@ Branch Status:
 *Answers KBQ: How cost-efficient is the payroll scheme? Which branches are most/least efficient? Does salary reflect productivity?*
 
 ### 1. Cost per Hour (CPH) Analysis by Branch
-<img width="1189" height="690" alt="download" src="https://github.com/user-attachments/assets/fea8c905-95b1-4470-8ab2-2e405e9b4e6f" />
+<img width="1189" height="690" alt="EDA 3" src="https://github.com/user-attachments/assets/22f773af-e02d-4f4f-bb21-9dd847c7445c" />
+
 
 **Findings:**
 - CPH range: **Rp42,941 (Branch 12722)** to **Rp72,765 (Branch 11265)**
@@ -234,8 +235,7 @@ Branch Status:
 
 
 ### 2. Strategic Talent Mapping: Salary vs. Avg Working Hours
-<img width="1189" height="790" alt="download (1)" src="https://github.com/user-attachments/assets/1a6b84fd-43aa-4d95-9823-c3bfa31bb54e" />
-
+<img width="1189" height="790" alt="EDA 4" src="https://github.com/user-attachments/assets/1563c723-87ea-4e08-a495-a63f30378f76" />
 
 **Findings:**
 - **Top-right quadrant** (High Salary / High Hours): ~30–35 employees, **not the dominant cluster**, contrary to what a healthy compensation system would show
@@ -254,7 +254,7 @@ Branch Status:
 *Answers KBQ: How are employees classified? What explains moderate avg scores? Are underperforming branches structurally different?*
 
 ### 1. Performance Distribution: Percentile-Based Thresholds
-<img width="987" height="590" alt="download (2)" src="https://github.com/user-attachments/assets/0e2541d6-fae3-4658-99a5-07c2f9b27656" />
+<img width="987" height="590" alt="EDA 5" src="https://github.com/user-attachments/assets/1f8e46e5-3239-49a7-91d0-a03d4537c0df" />
 
 **Findings:**
 - Distribution is **right-skewed**: majority of employees score between **0.6–0.8**
@@ -269,7 +269,7 @@ Branch Status:
 
 
 ### 2. Score Analysis by Branch (Ranked by Score)
-<img width="1189" height="690" alt="download (3)" src="https://github.com/user-attachments/assets/666b6806-8822-417b-9d93-8f8aee670d96" />
+<img width="1189" height="690" alt="EDA 6" src="https://github.com/user-attachments/assets/1b9b232e-8dc4-4ba3-bafe-7f137f8fc45c" />
 
 **Findings:**
 - Branch 12722 dominates with a score of **0.86**, far above the average of 0.45
@@ -297,7 +297,8 @@ Branch Status:
 *Answers KBQ: Who are the layoff candidates? Should mass layoff be the recommendation? Are candidates branch-concentrated?*
 
 ### 1. Layoff Proportion
-<img width="1007" height="695" alt="download (4)" src="https://github.com/user-attachments/assets/f3313097-0fba-4e5f-8fb6-72d9e6b7a7fe" />
+<img width="1007" height="695" alt="EDA 7" src="https://github.com/user-attachments/assets/b06e3ee6-e98b-46fd-a254-583f442e2b96" />
+
 
 **Findings:**
 
@@ -319,7 +320,8 @@ Branch Status:
 
 
 ### 2. Strategic Talent Mapping: Salary vs. Overall Performance Score
-<img width="1188" height="790" alt="download (6)" src="https://github.com/user-attachments/assets/143eeadb-147f-4500-8c05-cec74711573a" />
+<img width="1188" height="790" alt="EDA 8" src="https://github.com/user-attachments/assets/2cd032bd-3f75-453a-be86-63c40ca7f40b" />
+
 
 **Findings:**
 
@@ -349,9 +351,11 @@ Branch Status:
 **Tools: Power BI**
 An interactive 3-page dashboard was developed to communicate findings to both technical and non-technical stakeholders.
 
-<img width="973" height="544" alt="image" src="https://github.com/user-attachments/assets/72a19fe1-d6b9-490b-853b-54371095715e" />
-<img width="979" height="546" alt="image" src="https://github.com/user-attachments/assets/5af3d49d-3c5a-4f58-ba91-9366da8339ee" />
-<img width="984" height="549" alt="image" src="https://github.com/user-attachments/assets/b232aebf-ee39-46bc-a7a1-4f8c80e1ba0c" />
+<img width="973" height="544" alt="Screenshot 2026-05-10 115301" src="https://github.com/user-attachments/assets/633967d8-d5fa-41aa-aae9-04daf798a361" />
+
+<img width="979" height="546" alt="Screenshot 2026-05-10 115356" src="https://github.com/user-attachments/assets/ca65eedc-cb63-4820-826c-81a89c75d92b" />
+
+<img width="984" height="549" alt="Screenshot 2026-05-10 115431" src="https://github.com/user-attachments/assets/dc05e3d8-e06b-4cc2-b780-88f7f9a15d98" />
 
 
 ## Page 1 - Branch Efficiency Overview
